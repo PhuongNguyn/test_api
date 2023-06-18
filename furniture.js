@@ -1,4 +1,4 @@
-export const furniture = [
+const furniture = [
     {
         "Id": 24565,
         "Name": "Bàn sofa cũ  SP019795",
