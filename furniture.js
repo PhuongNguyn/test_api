@@ -220,3 +220,5 @@ export const furniture = [
         "OnHand": 1
     }
 ]
+
+module.exports = {furniture}

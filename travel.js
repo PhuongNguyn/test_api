@@ -1,4 +1,4 @@
-export const travel = [
+const travel = [
     {
         "id_post": 411485,
         "name": "Tour du lịch Nhật Bản 5 ngày 5 đêm - Khám phá xứ sở mặt trời mọc",
@@ -11550,3 +11550,6 @@ export const travel = [
         "code": "TOHANMBANIB4N3D-XETG-82268"
     }
 ]
+
+
+module.exports = {travel}

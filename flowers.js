@@ -1,4 +1,4 @@
-export const flowers = [
+const flowers = [
     {
         "id": 3782,
         "name": "Say You Do",
@@ -240,3 +240,5 @@ export const flowers = [
         "campaign_product": false
     }
 ]
+
+module.exports = {flowers}
