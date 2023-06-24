@@ -34,6 +34,7 @@ app.get('/travel/location', (req, res) => {
 app.get('/travel', (req, res) => {
     const price = req.query?.price || null
     const location = req.query.location || null
+    console.log(location)
     let result = []
 
     if(price){
@@ -41,7 +42,7 @@ app.get('/travel', (req, res) => {
     }
 
     if(location){
-        result = [...result, ...travel.filter(item => item.location == location)]
+        result = [...result, ...travel.filter(item => item.slug == location)]
     }
 
     if(!price && !location){

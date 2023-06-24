@@ -8,6 +8,7 @@ const travel = [
         "image": "https://www.vietnambooking.com/wp-content/uploads/2023/05/tour-du-lich-nhat-ban-5-ngay-5-dem-1-150x150.jpg",
         "type": "item",
         "location": "Hồ Chí Minh",
+        "slug": "ho-chi-minh",
         "code": "TOHCMNHB5N5D-MBGR-411485"
     },
     {
@@ -19,6 +20,7 @@ const travel = [
         "image": "https://www.vietnambooking.com/wp-content/uploads/2018/06/tour-mua-he-da-nang-3-ngay-2-dem-150x150.png",
         "type": "item",
         "location": "Đà Nẵng",
+        "slug": "da-nang",
         "code": "TODANHOAMTR3N2D-XEHE-111358"
     },
     {
@@ -30,6 +32,7 @@ const travel = [
         "image": "https://www.vietnambooking.com/wp-content/uploads/2023/05/tour-le-2-9-12-150x150.png",
         "type": "item",
         "location": "Hồ Chí Minh",
+        "slug": "ho-chi-minh",
         "code": "TOHCMTN--408696"
     },
     {
@@ -41,6 +44,7 @@ const travel = [
         "image": "https://www.vietnambooking.com/wp-content/uploads/2023/04/tour-dong-bang-song-cuu-long-10-2023-150x150.png",
         "type": "item",
         "location": "Hồ Chí Minh",
+        "slug": "ho-chi-minh",
         "code": "TOHCMCATMTA4N3D-XEDL-407034"
     },
     {
@@ -52,6 +56,7 @@ const travel = [
         "image": "https://www.vietnambooking.com/wp-content/uploads/2023/03/Tour-da-nang-ba-na-hoi-an-ngu-hanh-son-tu-ha-noi-2-2023-150x150.jpg",
         "type": "item",
         "location": "Hồ Chí Minh",
+        "slug": "ho-chi-minh",
         "code": "TOHCMDAN3N2D-MBDLHE-406903"
     },
     {
@@ -63,6 +68,7 @@ const travel = [
         "image": "https://www.vietnambooking.com/wp-content/uploads/2023/03/Tour-da-nang-ba-na-hoi-an-ngu-hanh-son-tu-tphcm-2023-150x150.png",
         "type": "item",
         "location": "Hồ Chí Minh",
+        "slug": "ho-chi-minh",
         "code": "TOHCMDAN3N2D-MBDL-406794"
     },
     {
@@ -74,6 +80,7 @@ const travel = [
         "image": "https://www.vietnambooking.com/wp-content/uploads/2023/03/ha-tien-phu-quoc-3n3d-2023-150x150.png",
         "type": "item",
         "location": "Hồ Chí Minh",
+        "slug": "ho-chi-minh",
         "code": "TOHCMKIGMNAPHQ3N3D-TTHE-181430"
     },
     {
@@ -85,6 +92,7 @@ const travel = [
         "image": "https://www.vietnambooking.com/wp-content/uploads/2023/03/tour-du-lich-nha-trang-da-lat-2023-150x150.png",
         "type": "item",
         "location": "Nha Trang",
+        "slug": "nha-trang",
         "code": "TONHTDAL4N3D-XETLHE-70458"
     },
     {
@@ -96,6 +104,7 @@ const travel = [
         "image": "https://www.vietnambooking.com/wp-content/uploads/2023/03/ha-noi-da-lat-nha-trang-5-ngay-4-dem-1-2023-150x150.png",
         "type": "item",
         "location": "Hà Nội",
+        "slug": "ha-noi",
         "code": "TOHANDALNHT5N4D-TTMBHE-239864"
     },
     {
@@ -107,6 +116,7 @@ const travel = [
         "image": "https://www.vietnambooking.com/wp-content/uploads/2023/03/tour-da-lat-3-ngay-3-dem-1-2023-150x150.jpg",
         "type": "item",
         "location": "Hồ Chí Minh",
+        "slug": "ho-chi-minh",
         "code": "VNBHCMDAL3N3D-XETG-374368"
     },
     {
@@ -118,6 +128,7 @@ const travel = [
         "image": "https://www.vietnambooking.com/wp-content/uploads/2023/03/tour-da-lat-3-ngay-2-dem-2023.jpg-150x150.png",
         "type": "item",
         "location": "Hà Nội",
+        "slug": "ha-noi",
         "code": "TOHANDAL3N2D-MBHE-94787"
     },
     {
@@ -129,6 +140,7 @@ const travel = [
         "image": "https://www.vietnambooking.com/wp-content/uploads/2023/03/tour-mien-tay-1-ngay-vietnambooking-2023-150x150.png",
         "type": "item",
         "location": "Hồ Chí Minh",
+        "slug": "ho-chi-minh",
         "code": "VNBHCMMTATN-TT-404796"
     },
     {
@@ -140,6 +152,7 @@ const travel = [
         "image": "https://www.vietnambooking.com/wp-content/uploads/2023/03/tour-ha-tien-phu-quoc-3n3d-1-150x150.png",
         "type": "item",
         "location": "Hồ Chí Minh",
+        "slug": "ho-chi-minh",
         "code": "TOHCMKIGMNAPHQ3N3D-TTLH-71462"
     },
     {
@@ -151,51 +164,8 @@ const travel = [
         "image": "https://www.vietnambooking.com/wp-content/uploads/2022/03/tour-da-nang-le-30-4-le-hoi-phao-hoa-1-150x150.png",
         "type": "item",
         "location": "Hồ Chí Minh",
+        "slug": "ho-chi-minh",
         "code": "TOHCMDANHOAHUE4N3D-MBLH-103616"
-    },
-    {
-        "id_post": 70767,
-        "name": "Tour du lịch Mỹ Tho – Cần Thơ 2 ngày 1 đêm giá tốt, khởi hành từ TPHCM",
-        "url": "https://www.vietnambooking.com/du-lich/du-lich-my-tho-can-tho-2-ngay-gia-tot-khoi-hanh-tu-tphcm.html",
-        "category": "tour_domestic",
-        "price": "1890000",
-        "image": "https://www.vietnambooking.com/wp-content/uploads/2023/02/du-lich-my-tho-can-tho-2-ngay-gia-tot-khoi-hanh-tu-tphcm-1-2023-150x150.png",
-        "type": "item",
-        "location": "Hồ Chí Minh",
-        "code": "TOHCMCATMTA2N1D-TTHE-70767"
-    },
-    {
-        "id_post": 410125,
-        "name": "Tour Seagame 32 2 ngày 1 đêm - Hành trình đến với đất nước chùa tháp Campuchia",
-        "url": "https://www.vietnambooking.com/du-lich/tour-seagame-32.html",
-        "category": "tour_internation",
-        "price": "3359000",
-        "image": "https://www.vietnambooking.com/wp-content/uploads/2023/04/tour-seagame-32-1-150x150.jpg",
-        "type": "item",
-        "location": "Hồ Chí Minh",
-        "code": "TOHCMCAM2N1D-XEBĐ-410125"
-    },
-    {
-        "id_post": 97269,
-        "name": "Tour Team Building Phú Quốc 3 ngày 2 đêm | Vui chơi bất tận ở đảo ngọc",
-        "url": "https://www.vietnambooking.com/du-lich/tour-team-building-choi-bat-tan-o-dao-ngoc-phu-quoc-3n2d.html",
-        "category": "tour_domestic",
-        "price": "2590000",
-        "image": "https://www.vietnambooking.com/wp-content/uploads/2020/01/tour-teambuilding-Phu-Quoc-3ngay-2dem-tu-TPHCM-150x150.jpeg",
-        "type": "item",
-        "location": "Hồ Chí Minh",
-        "code": "TOHCMPHQ3N2D-TTMBGR-97269"
-    },
-    {
-        "id_post": 395277,
-        "name": "Tour Phú Quý 3N3Đ | Khám phá hành trình \"đỉnh của chóp\" của vùng đất đầy nắng và gió",
-        "url": "https://www.vietnambooking.com/du-lich/tour-phu-quy-3-ngay-3-dem.html",
-        "category": "tour_domestic",
-        "price": "3890000",
-        "image": "https://www.vietnambooking.com/wp-content/uploads/2023/01/tour-phu-quy-3n3d-2023-150x150.png",
-        "type": "item",
-        "location": "Hồ Chí Minh",
-        "code": "VNBHCMPHT3N3D-TTTG-395277"
     },
 ]
 
