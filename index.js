@@ -24,7 +24,10 @@ app.get('/travel/location', (req, res) => {
     const locations = []
     travel.forEach(item => {
         if(!locations.find(x => x == item.location)){
-            locations.push(item.location)
+            locations.push({
+                location: item.location,
+                slug: item.slug
+            })
         }
     })
 
