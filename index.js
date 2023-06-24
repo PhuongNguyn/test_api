@@ -37,14 +37,18 @@ app.get('/travel', (req, res) => {
     let result = []
 
     if(price){
-        result = [...result, travel.map(item => Number(item.price) <= Number(price))]
+        result = [...result, ...travel.filter(item => Number(item.price) <= Number(price))]
     }
 
     if(location){
-        result = [...result, travel.map(item => item.location == location)]
+        result = [...result, ...travel.filter(item => item.location == location)]
     }
 
-    return res.status(200).json(travel)
+    if(!price && !location){
+        result =  travel
+    }
+
+    return res.status(200).json(result)
 })
 
 
