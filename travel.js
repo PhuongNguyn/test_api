@@ -26,7 +26,7 @@ const travel = [
         "name": "Đặt ngay tour lễ 2/9 giá rẻ với ưu đãi cực sốc!",
         "url": "https://www.vietnambooking.com/du-lich/tour-du-lich/tour-le-2-9.html",
         "category": "tour_domestic",
-        "price": "3000000",
+        "price": "1000000",
         "image": "https://www.vietnambooking.com/wp-content/uploads/2023/05/tour-le-2-9-12-150x150.png",
         "type": "item",
         "location": "Hồ Chí Minh",
@@ -97,6 +97,105 @@ const travel = [
         "type": "item",
         "location": "Hà Nội",
         "code": "TOHANDALNHT5N4D-TTMBHE-239864"
+    },
+    {
+        "id_post": 374368,
+        "name": "Tour Đà Lạt 3 ngày 3 đêm l Lạc vào chốn tiên cảnh giữa nhân gian",
+        "url": "https://www.vietnambooking.com/du-lich/tour-da-lat-3-ngay-3-dem.html",
+        "category": "tour_domestic",
+        "price": "2390000",
+        "image": "https://www.vietnambooking.com/wp-content/uploads/2023/03/tour-da-lat-3-ngay-3-dem-1-2023-150x150.jpg",
+        "type": "item",
+        "location": "Hồ Chí Minh",
+        "code": "VNBHCMDAL3N3D-XETG-374368"
+    },
+    {
+        "id_post": 94787,
+        "name": "Tour du lịch Đà Lạt 3 ngày 2 đêm | Thưởng ngoạn miền Cao Nguyên mộng mơ",
+        "url": "https://www.vietnambooking.com/du-lich/tour-da-lat-3-ngay-2-dem.html",
+        "category": "tour_domestic",
+        "price": "5090000",
+        "image": "https://www.vietnambooking.com/wp-content/uploads/2023/03/tour-da-lat-3-ngay-2-dem-2023.jpg-150x150.png",
+        "type": "item",
+        "location": "Hà Nội",
+        "code": "TOHANDAL3N2D-MBHE-94787"
+    },
+    {
+        "id_post": 404796,
+        "name": "Tour Miền Tây 1 ngày Vietnambooking | Chương trình khám phá miệt vườn dân dã, bình dị",
+        "url": "https://www.vietnambooking.com/du-lich/tour-mien-tay-1-ngay-vietnambooking.html",
+        "category": "tour_domestic",
+        "price": "699000",
+        "image": "https://www.vietnambooking.com/wp-content/uploads/2023/03/tour-mien-tay-1-ngay-vietnambooking-2023-150x150.png",
+        "type": "item",
+        "location": "Hồ Chí Minh",
+        "code": "VNBHCMMTATN-TT-404796"
+    },
+    {
+        "id_post": 71462,
+        "name": "Tour Hà Tiên - Phú Quốc 3N3Đ 30/04: Grand World Phú Quốc - Công viên nước Hòn Thơm",
+        "url": "https://www.vietnambooking.com/du-lich/tour-du-lich-30-04-thien-duong-ruc-nang-phu-quoc-3n3d.html",
+        "category": "tour_domestic",
+        "price": "4586000",
+        "image": "https://www.vietnambooking.com/wp-content/uploads/2023/03/tour-ha-tien-phu-quoc-3n3d-1-150x150.png",
+        "type": "item",
+        "location": "Hồ Chí Minh",
+        "code": "TOHCMKIGMNAPHQ3N3D-TTLH-71462"
+    },
+    {
+        "id_post": 103616,
+        "name": "Tour du lịch Đà Nẵng Lễ 30/4 4N3Đ | Bà Nà Hills - Hội An - Huế - Quảng Bình |Thứ 5 hàng tuần",
+        "url": "https://www.vietnambooking.com/du-lich/tour-da-nang-le-30-4-le-hoi-phao-hoa.html",
+        "category": "tour_domestic",
+        "price": "7790000",
+        "image": "https://www.vietnambooking.com/wp-content/uploads/2022/03/tour-da-nang-le-30-4-le-hoi-phao-hoa-1-150x150.png",
+        "type": "item",
+        "location": "Hồ Chí Minh",
+        "code": "TOHCMDANHOAHUE4N3D-MBLH-103616"
+    },
+    {
+        "id_post": 70767,
+        "name": "Tour du lịch Mỹ Tho – Cần Thơ 2 ngày 1 đêm giá tốt, khởi hành từ TPHCM",
+        "url": "https://www.vietnambooking.com/du-lich/du-lich-my-tho-can-tho-2-ngay-gia-tot-khoi-hanh-tu-tphcm.html",
+        "category": "tour_domestic",
+        "price": "1890000",
+        "image": "https://www.vietnambooking.com/wp-content/uploads/2023/02/du-lich-my-tho-can-tho-2-ngay-gia-tot-khoi-hanh-tu-tphcm-1-2023-150x150.png",
+        "type": "item",
+        "location": "Hồ Chí Minh",
+        "code": "TOHCMCATMTA2N1D-TTHE-70767"
+    },
+    {
+        "id_post": 410125,
+        "name": "Tour Seagame 32 2 ngày 1 đêm - Hành trình đến với đất nước chùa tháp Campuchia",
+        "url": "https://www.vietnambooking.com/du-lich/tour-seagame-32.html",
+        "category": "tour_internation",
+        "price": "3359000",
+        "image": "https://www.vietnambooking.com/wp-content/uploads/2023/04/tour-seagame-32-1-150x150.jpg",
+        "type": "item",
+        "location": "Hồ Chí Minh",
+        "code": "TOHCMCAM2N1D-XEBĐ-410125"
+    },
+    {
+        "id_post": 97269,
+        "name": "Tour Team Building Phú Quốc 3 ngày 2 đêm | Vui chơi bất tận ở đảo ngọc",
+        "url": "https://www.vietnambooking.com/du-lich/tour-team-building-choi-bat-tan-o-dao-ngoc-phu-quoc-3n2d.html",
+        "category": "tour_domestic",
+        "price": "2590000",
+        "image": "https://www.vietnambooking.com/wp-content/uploads/2020/01/tour-teambuilding-Phu-Quoc-3ngay-2dem-tu-TPHCM-150x150.jpeg",
+        "type": "item",
+        "location": "Hồ Chí Minh",
+        "code": "TOHCMPHQ3N2D-TTMBGR-97269"
+    },
+    {
+        "id_post": 395277,
+        "name": "Tour Phú Quý 3N3Đ | Khám phá hành trình \"đỉnh của chóp\" của vùng đất đầy nắng và gió",
+        "url": "https://www.vietnambooking.com/du-lich/tour-phu-quy-3-ngay-3-dem.html",
+        "category": "tour_domestic",
+        "price": "3890000",
+        "image": "https://www.vietnambooking.com/wp-content/uploads/2023/01/tour-phu-quy-3n3d-2023-150x150.png",
+        "type": "item",
+        "location": "Hồ Chí Minh",
+        "code": "VNBHCMPHT3N3D-TTTG-395277"
     },
 ]
 
