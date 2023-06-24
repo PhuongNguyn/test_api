@@ -32,6 +32,18 @@ app.get('/travel/location', (req, res) => {
 })
 
 app.get('/travel', (req, res) => {
+    const price = req.query?.price || null
+    const location = req.query.location || null
+    let result = []
+
+    if(price){
+        result = [...result, travel.map(item => Number(item.price) <= Number(price))]
+    }
+
+    if(location){
+        result = [...result, travel.map(item => item.location == location)]
+    }
+
     return res.status(200).json(travel)
 })
 
