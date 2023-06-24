@@ -20,13 +20,9 @@ app.get('/flower', (req, res) => {
     return res.status(200).json(flowers)
 })
 
-app.get('/travel', (req, res) => {
-    return res.status(200).json(travel)
-})
-
 app.get('/travel/location', (req, res) => {
     const locations = []
-    travel.map(item => {
+    travel.forEach(item => {
         if(!locations.find(x => x == item.location)){
             locations.push(item.location)
         }
@@ -34,6 +30,11 @@ app.get('/travel/location', (req, res) => {
 
     return res.status(200).json(locations)
 })
+
+app.get('/travel', (req, res) => {
+    return res.status(200).json(travel)
+})
+
 
 app.listen(3001, () => {
     console.log("app is listen on http://localhost:" + 3001)
