@@ -26,7 +26,7 @@ const travel = [
         "name": "Đặt ngay tour lễ 2/9 giá rẻ với ưu đãi cực sốc!",
         "url": "https://www.vietnambooking.com/du-lich/tour-du-lich/tour-le-2-9.html",
         "category": "tour_domestic",
-        "price": "",
+        "price": "3000000",
         "image": "https://www.vietnambooking.com/wp-content/uploads/2023/05/tour-le-2-9-12-150x150.png",
         "type": "item",
         "location": "Hồ Chí Minh",
