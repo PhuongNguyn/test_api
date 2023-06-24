@@ -23,7 +23,7 @@ app.get('/flower', (req, res) => {
 app.get('/travel/location', (req, res) => {
     const locations = []
     travel.forEach(item => {
-        if(!locations.find(x => x == item.location)){
+        if(!locations.find(x => x.slug == item.slug)){
             locations.push({
                 location: item.location,
                 slug: item.slug
