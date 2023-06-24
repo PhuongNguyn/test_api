@@ -4,6 +4,11 @@ const router = express.Router()
 const {furniture} = require('./furniture')
 const {flowers} = require('./flowers')
 const {travel} = require('./travel')
+const cors = require('cors')
+
+app.use(cors({
+    origin: '*'
+}))
 
 
 app.get('/furniture', (req, res) => {
